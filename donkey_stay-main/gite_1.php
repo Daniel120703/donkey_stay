@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../../identifiants/connect.php';
+require_once ('../../identifiants/connect.php');
 
 $pdo = new \PDO(DSN, USER, PASS);
 
@@ -228,7 +228,7 @@ if (isset($_POST['add_reservation'])) {
 			<div class="row mb-5">
 				<div class="col-md pt-5">
 					<div class="ftco-footer-widget pt-md-5 mb-4">
-						<h2 class="ftco-heading-2">About</h2>
+						<h2 class="ftco-heading-2">À propos de Donkey</h2>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -239,25 +239,25 @@ if (isset($_POST['add_reservation'])) {
 				</div>
 				<div class="col-md pt-5 border-left">
 					<div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
-						<h2 class="ftco-heading-2">Information</h2>
+						<h2 class="ftco-heading-2">Informations</h2>
 						<ul class="list-unstyled">
-							<li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
-							<li><a href="#" class="py-2 d-block">General Enquiries</a></li>
-							<li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
-							<li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-							<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-							<li><a href="#" class="py-2 d-block">Call Us</a></li>
+							<li><a href="#" class="py-2 d-block">Demande en ligne</a></li>
+							<li><a href="#" class="py-2 d-block">Demandes générales</a></li>
+							<li><a href="#" class="py-2 d-block">Conditions de réservation</a></li>
+							<li><a href="#" class="py-2 d-block">Confidentialité et politique</a></li>
+							<li><a href="#" class="py-2 d-block">Politique de remboursement</a></li>
+							<li><a href="#" class="py-2 d-block">Appelez-nous</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md pt-5 border-left">
 					<div class="ftco-footer-widget pt-md-5 mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<h2 class="ftco-heading-2">Nous contacter?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-								<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+								<li><span class="icon fa fa-map-marker"></span><span class="text">7 Rue Castéja, 92100 Boulogne-Billancourt</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+1 234 567 890</span></a></li>
+								<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@donkeystay.com</span></a></li>
 							</ul>
 						</div>
 					</div>
